@@ -46,9 +46,6 @@ public class Jogo_Mega_sena_main {
         cartela[7]=new matriz_jogos(27, 12, 33, 40, 59, 21);
         cartela[8]=new matriz_jogos(12, 25, 31, 39, 47, 21);
         //System.out.print(" "+cartela[0].num[0]+", "+cartela[0].num[1]+", "+cartela[0].num[2]+", ");
-       
-
-
         for (int i=0;i < cartela.length; ){                           
           // Verifico se os jogos da Cartela são iguais aos números sorteados;
              if(cartela[i].num[0] ==cm[0].num_sorte[0] && cartela[i].num[1] ==cm[0].num_sorte[1] && cartela[i].num[2] ==cm[0].num_sorte[2] && cartela[i].num[3] ==cm[0].num_sorte[3] && cartela[i].num[4] ==cm[0].num_sorte[4] && cartela[i].num[5] ==cm[0].num_sorte[5])
